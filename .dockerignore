@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!.dockerignore
+!requirements.txt
+!app.py
+!settings.py
+!urls.py

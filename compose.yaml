@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: "8000"
+      APP_VERSION: "0.1.0"
+      APP_ENV: compose
+    restart: unless-stopped
